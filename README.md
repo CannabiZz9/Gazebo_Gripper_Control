@@ -13,6 +13,12 @@ This repository is about how to control gripper in ros2 gazebo using keyboard in
 5.  telop twist keyboard
 	    edit controller.py
 
+cd Path/articubot_one
+colcon build --symlink-install
+
+source install/setup.bash
+
+
 to test 
 ros2 control list_hardware_interfaces
     Status Should Be :
