@@ -18,6 +18,11 @@ colcon build --symlink-install
 
 source install/setup.bash
 
+chmod +x path/to/your/script.py
+
+    chmod +x /home/tien/colcon_ws/articubot_one/install/articubot_one/lib/articubot_one/controller.py
+   OR
+    chmod +x /home/tien/colcon_ws/articubot_one/controller.py
 
 to test 
 ros2 control list_hardware_interfaces
