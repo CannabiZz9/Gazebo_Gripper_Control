@@ -16,15 +16,15 @@ This repository is about how to control gripper in ros2 gazebo using keyboard in
 to test 
 ros2 control list_hardware_interfaces
     Status Should Be :
-                      command interfaces
-	                      firstJoint/velocity [claimed]
-	                      ....../velocity [claimed]
-	                      lastJoint/velocity [claimed]
-                      state interfaces
-	                       firstJoint/position
-	                       firstJoint/velocity
-	                       ...../position
-	                       ...../velocity
-	                       lastJoint/position
-	                       lastJoint/velocity
+command interfaces
+	firstJoint/velocity [claimed]
+	....../velocity [claimed]
+	lastJoint/velocity [claimed]
+state interfaces
+	firstJoint/position
+	firstJoint/velocity
+	...../position
+	...../velocity
+	lastJoint/position
+	lastJoint/velocity
 
