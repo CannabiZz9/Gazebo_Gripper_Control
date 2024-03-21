@@ -3,9 +3,15 @@ This repository is about how to control gripper in ros2 gazebo using keyboard in
     https://youtu.be/-m1scz_ZvyU?si=Wi6iXNsdxHJQqOm7
 
 1. sudo apt install ros-foxy-gazebo-*
+
    sudo apt install ros-foxy-controller-*
+
+
+
    sudo apt install ros-foxy-controller-manager-*
    
+
+
 3.	Description
 	    Add Transmission
 	    Add Plugin gripper_robot_gazebo_system
